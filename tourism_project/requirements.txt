@@ -1,10 +1,8 @@
 # Dependencies for the GitHub Actions pipeline (data registration, prep, training).
 # Versions match tourism_project/deployment/requirements.txt so the model trained
 # in CI loads cleanly in the Streamlit app.
-# pandas==2.2.2
-pandas>=2.2.3
+pandas==2.2.2
 scikit-learn==1.6.1
-# xgboost==2.1.4
-xgboost-cpu
+xgboost==2.1.4
 joblib==1.4.2
 mlflow==3.0.1
